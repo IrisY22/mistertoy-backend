@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "t101",
+    "name": "Talking Doll",
+    "price": 123,
+    "labels": ["Doll", "Battery Powered", "Baby"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t102",
+    "name": "Goku",
+    "price": 7,
+    "labels": ["Doll", "Battery Powered", "Anime"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t103",
+    "name": "Barbie",
+    "price": 320,
+    "labels": ["Doll"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t104",
+    "name": "Horse",
+    "price": 123,
+    "labels": ["Doll", "Animals"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  }
+]
