@@ -31,6 +31,9 @@ app.get("/api/toy", (req, res) => {
   const filterBy = {
     txt: req.query.txt || "",
     maxPrice: +req.query.maxPrice || 0,
+    inStock: req.query.inStock || "All",
+    sortBy: req.query.sortBy || "name",
+    labels: req.query.labels || [],
   };
   toyService
     .query(filterBy)
@@ -38,7 +41,7 @@ app.get("/api/toy", (req, res) => {
       res.send(toy);
     })
     .catch((err) => {
-      loggerService.error("Cannot get toy", err);
+      // loggerService.error("Cannot get toy", err);
       res.status(400).send("Cannot get toy");
     });
 });

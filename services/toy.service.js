@@ -1,6 +1,7 @@
 import fs from "fs";
 import { utilService } from "./util.service.js";
 import { loggerService } from "./logger.service.js";
+import { log } from "console";
 
 export const toyService = {
   query,
@@ -17,7 +18,70 @@ function query(filterBy) {
   if (filterBy.maxPrice) {
     toysToReturn = toysToReturn.filter((toy) => toy.price <= filterBy.maxPrice);
   }
+  if (filterBy.inStock !== "All") {
+    toysToReturn = toysToReturn.filter((toy) =>
+      filterBy.inStock === "In stock" ? toy.inStock : !toy.inStock
+    );
+  }
+
+  if (filterBy.labels && filterBy.labels[0]) {
+    toysToReturn = toysToReturn.filter((toy) => {
+      console.log(toy.labels);
+      return toy.labels.some((label) => filterBy.labels.includes(label));
+    });
+  }
+
+  toysToReturn = sortBy(filterBy.sortBy, toysToReturn);
   return Promise.resolve(toysToReturn);
+}
+
+function sortBy(sort, unorderedToys) {
+  if (sort === "name") {
+    return sortByName(unorderedToys);
+  } else if (sort === "price") {
+    return sortByPrice(unorderedToys);
+  } else if (sort === "createdAt") {
+    return sortByCreatedAt(unorderedToys);
+  }
+}
+
+function sortByName(arr) {
+  return arr.sort((a, b) => {
+    const nameA = a.name.toUpperCase();
+    const nameB = b.name.toUpperCase();
+
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
+}
+
+function sortByPrice(arr) {
+  return arr.sort((a, b) => {
+    if (a.price < b.price) {
+      return -1;
+    }
+    if (a.price > b.price) {
+      return 1;
+    }
+    return 0;
+  });
+}
+
+function sortByCreatedAt(arr) {
+  return arr.sort((a, b) => {
+    if (a.createdAt < b.createdAt) {
+      return 1;
+    }
+    if (a.createdAt > b.createdAt) {
+      return -1;
+    }
+    return 0;
+  });
 }
 
 function getById(toyId) {
