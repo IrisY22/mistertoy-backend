@@ -11,7 +11,7 @@
     "_id": "t102",
     "name": "Goku",
     "price": 7,
-    "labels": ["Doll", "Battery Powered", "Anime"],
+    "labels": ["Doll", "Battery Powered", "Anime", "Box game"],
     "createdAt": 1631031801011,
     "inStock": false
   },
@@ -19,7 +19,7 @@
     "_id": "t103",
     "name": "Barbie",
     "price": 320,
-    "labels": ["Doll"],
+    "labels": ["Doll", "Puzzle"],
     "createdAt": 1631031801011,
     "inStock": true
   },
@@ -27,7 +27,103 @@
     "_id": "t104",
     "name": "Horse",
     "price": 123,
-    "labels": ["Doll", "Animals"],
+    "labels": ["Doll", "Animals", "Outdoor"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t105",
+    "name": "Remote car",
+    "price": 123,
+    "labels": ["Doll", "Battery Powered", "Baby"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t106",
+    "name": "Teddy bear",
+    "price": 7,
+    "labels": ["Doll", "Battery Powered"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t107",
+    "name": "Basketball",
+    "price": 320,
+    "labels": ["Outdoor"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t108",
+    "name": "Doll house",
+    "price": 123,
+    "labels": ["Doll", "Outdoor"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t109",
+    "name": "Talking Doll",
+    "price": 123,
+    "labels": ["Doll", "Battery Powered", "Baby"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t111",
+    "name": "Goku",
+    "price": 7,
+    "labels": ["Doll", "Battery Powered", "Anime", "Box game"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t112",
+    "name": "Barbie",
+    "price": 320,
+    "labels": ["Doll", "Puzzle"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t113",
+    "name": "Horse",
+    "price": 123,
+    "labels": ["Doll", "Animals", "Outdoor"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t114",
+    "name": "Remote car",
+    "price": 123,
+    "labels": ["Doll", "Battery Powered", "Baby"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t115",
+    "name": "Teddy bear",
+    "price": 7,
+    "labels": ["Doll", "Battery Powered"],
+    "createdAt": 1631031801011,
+    "inStock": false
+  },
+  {
+    "_id": "t116",
+    "name": "Basketball",
+    "price": 320,
+    "labels": ["Outdoor"],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t117",
+    "name": "Doll house",
+    "price": 123,
+    "labels": ["Doll", "Outdoor"],
     "createdAt": 1631031801011,
     "inStock": false
   }

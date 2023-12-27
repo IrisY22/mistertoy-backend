@@ -24,10 +24,14 @@ function query(filterBy) {
     );
   }
 
-  if (filterBy.labels && filterBy.labels[0]) {
+  if (
+    filterBy.labels &&
+    filterBy.labels.length &&
+    !filterBy.labels.includes("All")
+  ) {
     toysToReturn = toysToReturn.filter((toy) => {
-      console.log(toy.labels);
-      return toy.labels.some((label) => filterBy.labels.includes(label));
+      const toyLabels = Array.isArray(toy.labels) ? toy.labels : [];
+      return toyLabels.some((label) => filterBy.labels.includes(label));
     });
   }
 
