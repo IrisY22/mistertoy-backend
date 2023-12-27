@@ -22,9 +22,9 @@ app.use(express.static("public"));
 app.use(cookieParser());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Hello, World!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello, World!");
+// });
 
 // Toy LIST
 app.get("/api/toy", (req, res) => {
