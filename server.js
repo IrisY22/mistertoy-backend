@@ -1,8 +1,9 @@
-import path from "path";
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import { toyService } from "./services/toy.service.js";
+import { toyService } from "./api/toy/toy.service.js";
+import path, { dirname } from "path";
+import { dbService } from "./services/db.service.js";
 
 const app = express();
 const port = 3030;
@@ -22,57 +23,70 @@ app.use(express.static("public"));
 app.use(cookieParser());
 app.use(express.json());
 
+import { authRoutes } from "./api/auth/auth.routes.js";
+app.use("/api/auth", authRoutes);
+
+import { userRoutes } from "./api/user/user.routes.js";
+app.use("/api/user", userRoutes);
+
+import { toyRoutes } from "./api/toy/toy.routes.js";
+app.use("/api/toy", toyRoutes);
+
 // app.get("/", (req, res) => {
 //   res.send("Hello, World!");
 // });
 
 // Toy LIST
-app.get("/api/toy", async (req, res) => {
-  const filterBy = {
-    txt: req.query.txt || "",
-    maxPrice: +req.query.maxPrice || 0,
-    inStock: req.query.inStock || "All",
-    sortBy: req.query.sortBy || "name",
-    labels: req.query.labels || [],
-  };
+// app.get("/api/toy", async (req, res) => {
+//   const filterBy = {
+//     txt: req.query.txt || "",
+//     maxPrice: +req.query.maxPrice || 0,
+//     inStock: req.query.inStock || "All",
+//     sortBy: req.query.sortBy || "name",
+//     labels: req.query.labels || [],
+//   };
 
-  try {
-    const toys = await toyService.query(filterBy);
-    res.send(toys);
-  } catch (err) {
-    res.status(400).send("Cannot get toy");
-  }
-  // toyService
-  //   .query(filterBy)
-  //   .then((toy) => {
-  //     res.send(toy);
-  //   })
-  //   .catch((err) => {
-  //     // loggerService.error("Cannot get toy", err);
-  //     res.status(400).send("Cannot get toy");
-  //   });
-});
+//   const collection = await dbService.getCollection("toy");
+//   var cars = await collection.find({}).toArray();
+//   console.log(cars);
+
+//   try {
+//     const toys = await toyService.query(filterBy);
+//     res.send(toys);
+//   } catch (err) {
+//     res.status(400).send("Cannot get toy");
+//   }
+// toyService
+//   .query(filterBy)
+//   .then((toy) => {
+//     res.send(toy);
+//   })
+//   .catch((err) => {
+//     // loggerService.error("Cannot get toy", err);
+//     res.status(400).send("Cannot get toy");
+//   });
+// });
 
 // Toy READ
-app.get("/api/toy/:toyId", async (req, res) => {
-  const { toyId } = req.params;
-  try {
-    const toy = await toyService.getById(toyId);
-    res.send(toy);
-  } catch (err) {
-    loggerService.error("Cannot get toy", err);
-    res.status(400).send("Cannot get toy");
-  }
-  // toyService
-  //   .getById(toyId)
-  //   .then((toy) => {
-  //     res.send(toy);
-  //   })
-  //   .catch((err) => {
-  //     loggerService.error("Cannot get toy", err);
-  //     res.status(400).send("Cannot get toy");
-  //   });
-});
+// app.get("/api/toy/:toyId", async (req, res) => {
+//   const { toyId } = req.params;
+//   try {
+//     const toy = await toyService.getById(toyId);
+//     res.send(toy);
+//   } catch (err) {
+//     loggerService.error("Cannot get toy", err);
+//     res.status(400).send("Cannot get toy");
+//   }
+// toyService
+//   .getById(toyId)
+//   .then((toy) => {
+//     res.send(toy);
+//   })
+//   .catch((err) => {
+//     loggerService.error("Cannot get toy", err);
+//     res.status(400).send("Cannot get toy");
+//   });
+// });
 
 // Toy CREATE
 // app.post("/api/toy", (req, res) => {
@@ -94,29 +108,29 @@ app.get("/api/toy/:toyId", async (req, res) => {
 //     });
 // });
 
-app.post("/api/toy", async (req, res) => {
-  const toy = {
-    name: req.body.name,
-    price: +req.body.price,
-    inStock: req.body.inStock,
-  };
-  try {
-    const savedToy = await toyService.save(toy);
-    savedToy.msg = "Toy has been added succesfully";
-    res.send(savedToy);
-  } catch (err) {
-    res.status(400).send("Cannot save toy");
-  }
-  // toyService
-  //   .save(toy)
-  //   .then((savedToy) => {
-  //     savedToy.msg = "Toy has been added succesfully";
-  //     res.send(savedToy);
-  //   })
-  //   .catch((err) => {
-  //     res.status(400).send("Cannot save toy");
-  //   });
-});
+// app.post("/api/toy", async (req, res) => {
+//   const toy = {
+//     name: req.body.name,
+//     price: +req.body.price,
+//     inStock: req.body.inStock,
+//   };
+//   try {
+//     const savedToy = await toyService.save(toy);
+//     savedToy.msg = "Toy has been added succesfully";
+//     res.send(savedToy);
+//   } catch (err) {
+//     res.status(400).send("Cannot save toy");
+//   }
+// toyService
+//   .save(toy)
+//   .then((savedToy) => {
+//     savedToy.msg = "Toy has been added succesfully";
+//     res.send(savedToy);
+//   })
+//   .catch((err) => {
+//     res.status(400).send("Cannot save toy");
+//   });
+// });
 
 // Toy UPDATE
 // app.put("/api/toy", (req, res) => {
@@ -138,29 +152,29 @@ app.post("/api/toy", async (req, res) => {
 //       res.status(400).send("Cannot save toy");
 //     });
 // });
-app.put("/api/toy", async (req, res) => {
-  const toy = {
-    name: req.body.name,
-    price: +req.body.price,
-    inStock: req.body.inStock,
-  };
-  try {
-    const savedToy = await toyService.save(toy);
-    savedToy.msg = "Toy has been updated succesfully";
-    res.send(savedToy);
-  } catch {
-    res.status(400).send("Cannot save toy");
-  }
-  // toyService
-  //   .save(toy)
-  //   .then((savedToy) => {
-  //     savedToy.msg = "Toy has been updated succesfully";
-  //     res.send(savedToy);
-  //   })
-  //   .catch((err) => {
-  //     res.status(400).send("Cannot save toy");
-  //   });
-});
+// app.put("/api/toy", async (req, res) => {
+//   const toy = {
+//     name: req.body.name,
+//     price: +req.body.price,
+//     inStock: req.body.inStock,
+//   };
+//   try {
+//     const savedToy = await toyService.save(toy);
+//     savedToy.msg = "Toy has been updated succesfully";
+//     res.send(savedToy);
+//   } catch {
+//     res.status(400).send("Cannot save toy");
+//   }
+// toyService
+//   .save(toy)
+//   .then((savedToy) => {
+//     savedToy.msg = "Toy has been updated succesfully";
+//     res.send(savedToy);
+//   })
+//   .catch((err) => {
+//     res.status(400).send("Cannot save toy");
+//   });
+// });
 
 // Toy DELETE
 // app.delete("/api/toy/:toyId", (req, res) => {
@@ -183,25 +197,25 @@ app.put("/api/toy", async (req, res) => {
 //       res.status(400).send("Cannot remove toy");
 //     });
 // });
-app.delete("/api/toy/:toyId", (req, res) => {
-  const { toyId } = req.params;
-  try {
-    toyService.remove(toyId);
-    savedToy.msg = "Toy has been removes succesfully";
-    res.send("Removed!");
-  } catch {
-    res.status(400).send("Cannot remove toy");
-  }
-  // toyService
-  //   .remove(toyId)
-  //   .then(() => {
-  //     savedToy.msg = "Toy has been removes succesfully";
-  //     res.send("Removed!");
-  //   })
-  //   .catch((err) => {
-  //     res.status(400).send("Cannot remove toy");
-  //   });
-});
+// app.delete("/api/toy/:toyId", (req, res) => {
+//   const { toyId } = req.params;
+//   try {
+//     toyService.remove(toyId);
+//     savedToy.msg = "Toy has been removes succesfully";
+//     res.send("Removed!");
+//   } catch {
+//     res.status(400).send("Cannot remove toy");
+//   }
+// toyService
+//   .remove(toyId)
+//   .then(() => {
+//     savedToy.msg = "Toy has been removes succesfully";
+//     res.send("Removed!");
+//   })
+//   .catch((err) => {
+//     res.status(400).send("Cannot remove toy");
+//   });
+// });
 
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);

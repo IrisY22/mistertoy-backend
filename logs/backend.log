@@ -1,0 +1,69 @@
+29.12.2023, 16:31:53 - INFO - Req was made | / 
+29.12.2023, 16:31:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:32:54 - INFO - Req was made | / 
+29.12.2023, 16:32:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:33:18 - INFO - Req was made | / 
+29.12.2023, 16:33:18 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:35:06 - INFO - Req was made | / 
+29.12.2023, 16:35:06 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:35:43 - INFO - Req was made | / 
+29.12.2023, 16:35:43 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:37:24 - INFO - Req was made | / 
+29.12.2023, 16:37:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:37:37 - INFO - Req was made | / 
+29.12.2023, 16:37:37 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:39:49 - INFO - Req was made | / 
+29.12.2023, 16:39:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:40:22 - INFO - Req was made | / 
+29.12.2023, 16:40:22 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:41:53 - INFO - Req was made | / 
+29.12.2023, 16:41:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:43:20 - INFO - Req was made | / 
+29.12.2023, 16:43:20 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:44:39 - INFO - Req was made | / 
+29.12.2023, 16:44:39 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:51:54 - INFO - Req was made | / 
+29.12.2023, 16:51:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:51:54 - ERROR - Failed to get toys | ReferenceError: sortBy is not defined 
+29.12.2023, 16:52:09 - INFO - Req was made | / 
+29.12.2023, 16:52:09 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:52:09 - ERROR - Failed to get toys | ReferenceError: sortBy is not defined 
+29.12.2023, 16:52:26 - INFO - Req was made | / 
+29.12.2023, 16:52:26 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:52:26 - ERROR - Failed to get toys | ReferenceError: sortBy is not defined 
+29.12.2023, 16:52:34 - INFO - Req was made | / 
+29.12.2023, 16:52:34 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:52:34 - ERROR - Failed to get toys | ReferenceError: sortBy is not defined 
+29.12.2023, 16:54:17 - INFO - Req was made | / 
+29.12.2023, 16:54:17 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:54:17 - ERROR - Failed to get toys | ReferenceError: sortBy is not defined 
+29.12.2023, 16:56:09 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 16:56:09 - INFO - Req was made | / 
+29.12.2023, 16:56:48 - ERROR - while finding toy t102 | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+29.12.2023, 16:56:48 - ERROR - Failed to get toy | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+29.12.2023, 17:02:36 - ERROR - while finding toy t102 | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+29.12.2023, 17:02:36 - ERROR - Failed to get toy | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+29.12.2023, 17:02:39 - INFO - Req was made | / 
+29.12.2023, 17:02:39 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:02:41 - INFO - Req was made | / 
+29.12.2023, 17:02:41 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:02:47 - INFO - Req was made | / 
+29.12.2023, 17:02:47 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:02:48 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:02:48 - INFO - Req was made | / 
+29.12.2023, 17:03:01 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:03:01 - INFO - Req was made | / 
+29.12.2023, 17:03:55 - INFO - Req was made | / 
+29.12.2023, 17:03:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:04:37 - INFO - Req was made | / 
+29.12.2023, 17:04:37 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:04:56 - INFO - Req was made | / 
+29.12.2023, 17:04:56 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:05:22 - INFO - Req was made | / 
+29.12.2023, 17:05:22 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:05:23 - INFO - Req was made | / 
+29.12.2023, 17:05:23 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:06:14 - INFO - Req was made | / 
+29.12.2023, 17:06:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:06:27 - INFO - Req was made | / 
+29.12.2023, 17:06:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
