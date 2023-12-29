@@ -133,7 +133,7 @@ function remove(toyId) {
 
 //   return _saveToysToFile().then(() => toy);
 // }
-function save(toy) {
+async function save(toy) {
   if (toy._id) {
     const toyToUpdate = toys.find((currToy) => currToy._id === toy._id);
     toyToUpdate.name = toy.name;
@@ -145,7 +145,9 @@ function save(toy) {
     toys.push(toy);
   }
 
-  return _saveToysToFile().then(() => toy);
+  return await _saveToysToFile();
+
+  // return _saveToysToFile().then(() => toy);
 }
 
 // function _saveToysToFile() {
