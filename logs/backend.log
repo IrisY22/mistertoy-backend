@@ -67,3 +67,363 @@
 29.12.2023, 17:06:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
 29.12.2023, 17:06:27 - INFO - Req was made | / 
 29.12.2023, 17:06:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:57:08 - INFO - Req was made | / 
+29.12.2023, 17:57:08 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:57:44 - INFO - Req was made | / 
+29.12.2023, 17:57:44 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:58:07 - INFO - Req was made | / 
+29.12.2023, 17:58:07 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:58:43 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 17:58:43 - INFO - Req was made | / 
+29.12.2023, 18:00:27 - INFO - Req was made | / 
+29.12.2023, 18:00:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 18:01:58 - INFO - Req was made | / 
+29.12.2023, 18:01:58 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+29.12.2023, 18:05:16 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:05:16 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:05:38 - DEBUG - auth.service - login with username: Nadav 
+29.12.2023, 18:05:38 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:07:25 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:07:25 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:07:46 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:07:46 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:07:54 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:07:54 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:09:16 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:09:16 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:09:31 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:09:31 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:09:52 - DEBUG - auth.service - login with username: iris 
+29.12.2023, 18:09:52 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:10:19 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:10:19 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:11:04 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:11:04 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:11:15 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:11:15 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:11:22 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:11:22 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:11:43 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:11:43 - ERROR - Failed to Login Error: Invalid username or password 
+29.12.2023, 18:12:53 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:12:53 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+29.12.2023, 18:13:43 - DEBUG - auth.service - login with username: Iris 
+29.12.2023, 18:13:43 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 10:54:06 - INFO - Req was made | / 
+30.12.2023, 10:54:06 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 10:56:22 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 10:56:22 - INFO - Req was made | / 
+30.12.2023, 10:56:31 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 10:56:31 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 10:56:37 - INFO - Req was made | / 
+30.12.2023, 10:56:37 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 10:57:44 - INFO - Req was made | / 
+30.12.2023, 10:57:44 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 10:57:55 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 10:57:55 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 10:58:49 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 10:58:49 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:00:46 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:00:46 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:01:11 - INFO - Req was made | / 
+30.12.2023, 11:01:11 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:03:41 - INFO - Req was made | / 
+30.12.2023, 11:03:41 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:23:08 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:23:08 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:23:14 - INFO - Req was made | / 
+30.12.2023, 11:23:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:23:24 - INFO - Req was made | / 
+30.12.2023, 11:23:24 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:26:31 - DEBUG - auth.service - login with username: sss 
+30.12.2023, 11:26:31 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:27:02 - DEBUG - auth.service - login with username: nadav 
+30.12.2023, 11:27:02 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:27:10 - DEBUG - auth.service - login with username: nadav 
+30.12.2023, 11:27:10 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:27:22 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:27:22 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:28:25 - INFO - Req was made | / 
+30.12.2023, 11:28:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:30:42 - DEBUG - auth.service - login with username: nadav 
+30.12.2023, 11:30:42 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:30:53 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:30:53 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:32:24 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:32:24 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:32:27 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:32:27 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:32:55 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:32:55 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:32:55 - INFO - Req was made | / 
+30.12.2023, 11:32:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:33:07 - DEBUG - auth.service - login with username: hgs 
+30.12.2023, 11:33:07 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:33:12 - DEBUG - auth.service - login with username:  
+30.12.2023, 11:33:12 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:33:20 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:33:20 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:34:02 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:34:03 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:34:03 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:34:03 - INFO - Req was made | / 
+30.12.2023, 11:34:15 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:34:15 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:34:15 - INFO - Req was made | / 
+30.12.2023, 11:34:15 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:34:26 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:34:26 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:35:30 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:35:30 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:35:37 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:35:37 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:35:37 - INFO - Req was made | / 
+30.12.2023, 11:35:37 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:37:15 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:37:15 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:37:54 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:37:54 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:37:59 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:37:59 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:38:11 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:38:11 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:38:42 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:38:42 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:38:52 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:38:52 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:38:52 - INFO - Req was made | / 
+30.12.2023, 11:38:52 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:39:32 - INFO - Req was made | / 
+30.12.2023, 11:39:32 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:40:53 - INFO - Req was made | / 
+30.12.2023, 11:40:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:43:05 - INFO - Req was made | / 
+30.12.2023, 11:43:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:48:00 - INFO - Req was made | / 
+30.12.2023, 11:48:00 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:48:05 - INFO - Req was made | / 
+30.12.2023, 11:48:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:48:57 - INFO - Req was made | / 
+30.12.2023, 11:48:57 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:49:25 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 11:49:25 - ERROR - Failed to Login Error: Invalid username or password 
+30.12.2023, 11:49:39 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 11:49:39 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 11:49:39 - INFO - Req was made | / 
+30.12.2023, 11:49:39 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:49:45 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:49:45 - INFO - Req was made | / 
+30.12.2023, 11:50:11 - INFO - Req was made | / 
+30.12.2023, 11:50:11 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:50:21 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 11:50:21 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 11:50:21 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:50:21 - INFO - Req was made | / 
+30.12.2023, 11:55:30 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:55:30 - INFO - Req was made | / 
+30.12.2023, 11:56:10 - INFO - Req was made | / 
+30.12.2023, 11:56:10 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 11:56:16 - INFO - Req was made | / 
+30.12.2023, 11:56:16 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 12:00:55 - INFO - Req was made | / 
+30.12.2023, 12:00:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 12:10:23 - INFO - Req was made | / 
+30.12.2023, 12:10:23 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 12:11:52 - INFO - Req was made | / 
+30.12.2023, 12:11:52 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 12:11:56 - INFO - Req was made | / 
+30.12.2023, 12:11:56 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:43:28 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:43:28 - INFO - Req was made | / 
+30.12.2023, 13:52:00 - INFO - Req was made | / 
+30.12.2023, 13:52:00 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:53:48 - INFO - Req was made | / 
+30.12.2023, 13:53:48 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:54:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:54:49 - INFO - Req was made | / 
+30.12.2023, 13:55:06 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:55:06 - INFO - Req was made | / 
+30.12.2023, 13:56:32 - INFO - Req was made | / 
+30.12.2023, 13:56:32 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:56:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 13:56:49 - INFO - Req was made | / 
+30.12.2023, 14:01:07 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:01:07 - INFO - Req was made | / 
+30.12.2023, 14:01:49 - INFO - Req was made | / 
+30.12.2023, 14:01:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:02:08 - INFO - Req was made | / 
+30.12.2023, 14:02:08 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:02:25 - INFO - Req was made | / 
+30.12.2023, 14:02:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:02:49 - INFO - Req was made | / 
+30.12.2023, 14:02:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:12 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:12 - INFO - Req was made | / 
+30.12.2023, 14:03:18 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:18 - INFO - Req was made | / 
+30.12.2023, 14:03:33 - INFO - Req was made | / 
+30.12.2023, 14:03:33 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:44 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:44 - INFO - Req was made | / 
+30.12.2023, 14:03:50 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:50 - INFO - Req was made | / 
+30.12.2023, 14:03:53 - INFO - Req was made | / 
+30.12.2023, 14:03:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:03:58 - INFO - Req was made | / 
+30.12.2023, 14:03:58 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:04:05 - INFO - Req was made | / 
+30.12.2023, 14:04:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:06:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:06:54 - INFO - Req was made | / 
+30.12.2023, 14:07:19 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:07:19 - INFO - Req was made | / 
+30.12.2023, 14:07:25 - INFO - Req was made | / 
+30.12.2023, 14:07:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:10:03 - INFO - Req was made | / 
+30.12.2023, 14:10:03 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:10:11 - INFO - Req was made | / 
+30.12.2023, 14:10:11 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:10:49 - INFO - Req was made | / 
+30.12.2023, 14:10:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:11:30 - INFO - Req was made | / 
+30.12.2023, 14:11:30 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:11:35 - INFO - Req was made | / 
+30.12.2023, 14:11:35 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:11:41 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:11:41 - INFO - Req was made | / 
+30.12.2023, 14:13:24 - INFO - Req was made | / 
+30.12.2023, 14:13:24 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:13:26 - INFO - Req was made | / 
+30.12.2023, 14:13:26 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:13:30 - INFO - Req was made | / 
+30.12.2023, 14:13:30 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:13:38 - INFO - Req was made | / 
+30.12.2023, 14:13:38 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:14:20 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:14:20 - INFO - Req was made | / 
+30.12.2023, 14:15:39 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:15:46 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:17:11 - INFO - Req was made | / 
+30.12.2023, 14:17:11 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:17:24 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 14:17:24 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 14:17:24 - INFO - Req was made | / 
+30.12.2023, 14:17:24 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:18:59 - INFO - Req was made | / 
+30.12.2023, 14:18:59 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:20:16 - INFO - Req was made | / 
+30.12.2023, 14:20:16 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:20:25 - INFO - Req was made | / 
+30.12.2023, 14:20:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:21:12 - INFO - Req was made | / 
+30.12.2023, 14:21:12 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:21:44 - INFO - Req was made | / 
+30.12.2023, 14:21:44 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"createdAt","labels":[]} 
+30.12.2023, 14:21:53 - INFO - Req was made | / 
+30.12.2023, 14:21:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:22:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:22:53 - INFO - Req was made | / 
+30.12.2023, 14:27:52 - INFO - Req was made | / 
+30.12.2023, 14:27:52 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:27:59 - INFO - Req was made | / 
+30.12.2023, 14:27:59 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:29:04 - INFO - Req was made | / 
+30.12.2023, 14:29:04 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:34:00 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 14:34:00 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 14:34:00 - INFO - Req was made | / 
+30.12.2023, 14:34:00 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:35:16 - INFO - Req was made | / 
+30.12.2023, 14:35:16 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:35:31 - INFO - Req was made | / 
+30.12.2023, 14:35:31 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:35:40 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 14:35:40 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 14:35:40 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:35:40 - INFO - Req was made | / 
+30.12.2023, 14:35:49 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 14:35:49 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 14:35:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:35:49 - INFO - Req was made | / 
+30.12.2023, 14:49:06 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:49:06 - INFO - Req was made | / 
+30.12.2023, 14:49:13 - INFO - Req was made | / 
+30.12.2023, 14:49:13 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:49:36 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 14:49:36 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 14:49:36 - INFO - Req was made | / 
+30.12.2023, 14:49:36 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:49:55 - INFO - Req was made | / 
+30.12.2023, 14:49:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:50:23 - INFO - Req was made | / 
+30.12.2023, 14:50:23 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:50:42 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:50:42 - INFO - Req was made | / 
+30.12.2023, 14:51:14 - INFO - Req was made | / 
+30.12.2023, 14:51:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:51:35 - INFO - Req was made | / 
+30.12.2023, 14:51:35 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:52:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:52:27 - INFO - Req was made | / 
+30.12.2023, 14:52:58 - INFO - Req was made | / 
+30.12.2023, 14:52:58 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:53:48 - INFO - Req was made | / 
+30.12.2023, 14:53:48 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:54:20 - INFO - Req was made | / 
+30.12.2023, 14:54:20 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:55:01 - INFO - Req was made | / 
+30.12.2023, 14:55:01 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:55:29 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:55:29 - INFO - Req was made | / 
+30.12.2023, 14:55:56 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 14:55:56 - INFO - Req was made | / 
+30.12.2023, 14:56:12 - INFO - Req was made | / 
+30.12.2023, 14:56:12 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:03:12 - INFO - Req was made | / 
+30.12.2023, 15:03:12 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:03:21 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 15:03:21 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 15:03:21 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:03:21 - INFO - Req was made | / 
+30.12.2023, 15:03:26 - INFO - Req was made | / 
+30.12.2023, 15:03:26 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:30:43 - INFO - Req was made | / 
+30.12.2023, 15:30:43 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:30:54 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 15:30:54 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 15:30:54 - INFO - Req was made | / 
+30.12.2023, 15:30:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:32:40 - INFO - Req was made | / 
+30.12.2023, 15:32:40 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:36:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:36:53 - INFO - Req was made | / 
+30.12.2023, 15:38:13 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 15:38:13 - INFO - Req was made | / 
+30.12.2023, 15:38:28 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 15:38:28 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 15:38:28 - INFO - Req was made | / 
+30.12.2023, 15:38:28 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:53:32 - INFO - Req was made | / 
+30.12.2023, 16:53:32 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:53:50 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 16:53:51 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 16:53:51 - INFO - Req was made | / 
+30.12.2023, 16:53:51 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:54:22 - INFO - Req was made | / 
+30.12.2023, 16:54:22 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:54:28 - DEBUG - auth.service - login with username: Iris 
+30.12.2023, 16:54:28 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adad9","fullname":"Iris Yatskaer","username":"Iris","isAdmin":true} 
+30.12.2023, 16:54:28 - INFO - Req was made | / 
+30.12.2023, 16:54:28 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:55:26 - INFO - Req was made | / 
+30.12.2023, 16:55:26 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:55:36 - DEBUG - auth.service - login with username: Nadav 
+30.12.2023, 16:55:36 - INFO - User login:  | {"_id":"658eeb1fb92bc281196adada","fullname":"Nadav Barda","username":"Nadav","isAdmin":false} 
+30.12.2023, 16:55:36 - INFO - Req was made | / 
+30.12.2023, 16:55:36 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 
+30.12.2023, 16:58:57 - ERROR - cannot add toy msg undefined | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+30.12.2023, 16:58:57 - ERROR - Failed to update toy | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+30.12.2023, 17:02:58 - ERROR - cannot add toy msg undefined | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+30.12.2023, 17:02:58 - ERROR - Failed to update toy | BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer 
+30.12.2023, 17:13:38 - INFO - Req was made | / 
+30.12.2023, 17:13:38 - DEBUG - Getting Toys | {"txt":"","maxPrice":0,"inStock":"All","sortBy":"name","labels":[]} 

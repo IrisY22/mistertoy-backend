@@ -9,7 +9,6 @@ export async function login(req, res) {
 
     loggerService.info("User login: ", user);
     res.cookie("loginToken", loginToken);
-
     res.json(user);
   } catch (err) {
     loggerService.error("Failed to Login " + err);

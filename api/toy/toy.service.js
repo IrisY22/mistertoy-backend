@@ -92,8 +92,11 @@ async function add(toy) {
 async function update(toy) {
   try {
     const toyToSave = {
-      vendor: toy.vendor,
+      name: toy.name,
       price: toy.price,
+      labels: toy.labels,
+      inStock: toy.inStock,
+      msg: toy.msg,
     };
     const collection = await dbService.getCollection("toy");
     await collection.updateOne(
@@ -113,7 +116,7 @@ async function addToyMsg(toyId, msg) {
     const collection = await dbService.getCollection("toy");
     await collection.updateOne(
       { _id: new ObjectId(toyId) },
-      { $push: { msgs: msg } }
+      { $push: { msg: msg } }
     );
     return msg;
   } catch (err) {

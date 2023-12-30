@@ -75,8 +75,12 @@ export async function addToyMsg(req, res) {
     const toyId = req.params.id;
     const msg = {
       txt: req.body.txt,
-      by: loggedinUser,
+      by: {
+        _id: loggedinUser._id,
+        fullname: loggedinUser.fullname,
+      },
     };
+    console.log(toyId);
     const savedMsg = await toyService.addToyMsg(toyId, msg);
     res.json(savedMsg);
   } catch (err) {
